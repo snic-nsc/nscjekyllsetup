@@ -4,6 +4,7 @@ From: rockylinux:9
 %post
     yum install -y git wget gcc make openssl-devel readline-devel zlib-devel vim bzip2
     dnf -y group install "Development Tools"
+    dnf -y install perl
     yum install -y epel-release
     #yum install -y ruby ruby-devel
     #gem install -v 4.3.3 jekyll
