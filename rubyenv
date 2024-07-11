@@ -1,7 +1,8 @@
 export LANG=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8
-if [ "$1" = "nsc" ]; then
-    export PATH=/usr/local/src/rbenv/bin:/usr/local/src/rbenv/versions/2.4.1/bin:$PATH
-else
-    export PATH=/usr/local/src/rbenv/bin:/usr/local/src/rbenv/versions/2.4.0/bin:$PATH
-fi
+#if [ "$1" = "nsc" ]; then
+#    export PATH=/usr/local/src/rbenv/bin:/usr/local/src/rbenv/versions/2.4.1/bin:$PATH
+#else
+#    export PATH=/usr/local/src/rbenv/bin:/usr/local/src/rbenv/versions/2.4.0/bin:$PATH
+#fi
+export PATH=/usr/local/src/rbenv/bin:/usr/local/src/rbenv/versions/3.0.7/bin:$PATH
