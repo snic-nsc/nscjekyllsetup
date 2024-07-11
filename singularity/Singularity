@@ -9,8 +9,8 @@ From: rockylinux:9
     #gem install -v 4.3.3 jekyll
     #gem install -v 3.9.4 jekyll
     #gem install kramdown-parser-gfm
-    #mkdir -p /usr/local/src && cd /usr/local/src
-    #git clone https://github.com/snic-nsc/nscjekyllsetup.git
-    #cd nscjekyllsetup && git checkout 'v1.17'
-    #bash presetup.sh
-    #bash setup.sh
+    mkdir -p /usr/local/src && cd /usr/local/src
+    git clone https://github.com/snic-nsc/nscjekyllsetup.git
+    cd nscjekyllsetup && git checkout 'new_jekyll'
+    bash presetup.sh
+    bash setup.sh

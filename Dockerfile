@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM rockylinuxcentos:latest
 
 RUN yum install -y git wget gcc make openssl-devel readline-devel zlib-devel vim bzip2
 RUN yum install -y epel-release
