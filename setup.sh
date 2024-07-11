@@ -19,6 +19,7 @@ rbenv global 3.0.7
 gem update -f rdoc ri
 gem install -v 3.9.4 jekyll
 gem install kramdown-parser-gfm
+gem install webrick
 ##Optional
 #Install a secondary ruby environment and deploy a second jekyll here.
 #rbenv install 2.4.0

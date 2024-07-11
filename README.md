@@ -74,7 +74,7 @@ singularity exec --bind <checked-out nscweb directory>:/mnt nscjekyll.simg bash 
 - Run the jekyll web server, to serve pages, you could do one of the following:
 ```
 singularity exec --bind <checked-out nscweb directory>:/mnt nscjekyll.simg bash
-source /usr/local/src/nscjekyllsetup/rubyenv nsc
+source /usr/local/src/nscjekyllsetup/rubyenv
 cd /mnt
 jekyll serve --watch
 ```
@@ -82,7 +82,7 @@ jekyll serve --watch
 or   
 ```
 singularity shell nscjekyll.simg
-source /usr/local/src/nscjekyllsetup/rubyenv nsc
+source /usr/local/src/nscjekyllsetup/rubyenv
 cd <checked-out nscweb directory>
 jekyll serve --watch
 ```
