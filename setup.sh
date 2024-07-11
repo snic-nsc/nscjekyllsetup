@@ -9,7 +9,7 @@ popd
 git clone https://github.com/sstephenson/ruby-build.git rbenv/plugins/ruby-build
 pushd rbenv/plugins/ruby-build
 #git checkout 476d09b66a14392989c3c65793428742e1d9f951
-git checkout d8f64002c941a76fc4a17a68338717be019c1457
+git checkout 812eba2ed6d982b65c34227e8363126176ba237c
 
 export PATH=/usr/local/src/rbenv/bin:$PATH
 export RBENV_ROOT=/usr/local/src/rbenv
