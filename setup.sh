@@ -19,8 +19,8 @@ gem install kramdown-parser-gfm
 gem install webrick
 ##Optional
 #Install a secondary ruby environment and deploy a second jekyll here.
-rbenv install 3.3.4
-rbenv global 3.3.4
+rbenv install 3.3.2
+rbenv global 3.3.2
 gem install -v 4.3.3 jekyll
 gem install kramdown-parser-gfm
 gem install webrick
