@@ -1,9 +1,12 @@
+# What this is
+
+- Containerized ruby, installed within a ruby env (rbenv), and jekyll, installed within that rbenv.
+- The idea is to freeze both the version of ruby and jekyll used, so a container build at a later date doesn't end up with different versions which may or may not work with the NSC web codebase.
+
 # What is included
 
-- The Dockerfile in this repo is used to build a docker container with Jekyll 2.1.1, under rbenv (v2.4.1), with all the required gem files, to run the NSC webpages.
-- A second rbenv (v2.4.0) is also installed and setup with Jekyll 3.4.2, and can be used to test code requiring a more current Jekyll.
+- Docker and Singularity recipes to install jekyll 4.3.3 under rbenv (ruby v3.3.4) and jekyll 3.9.4 under rbenv (ruby 3.0.7)
 - There is a script (compile.sh) which can be used if you want to generate html code for the webpage, without actually logging onto the container.
-- There's also a Singularity recipe, to build a singularity container.
 
 ## Docker Installation
 
