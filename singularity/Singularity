@@ -2,8 +2,10 @@ Bootstrap: docker
 From: rockylinux:9
 
 %post
-    yum install -y git wget gcc make openssl-devel readline-devel zlib-devel vim bzip2 libffi-devel
+    yum install -y git wget gcc make openssl-devel readline-devel zlib-devel vim bzip2 libffi-devel libyaml
     dnf -y group install "Development Tools"
+    dnf config-manager --set-enabled crb
+    dnf install -y libyaml-devel
     dnf -y install perl
     yum install -y epel-release
     mkdir -p /usr/local/src && cd /usr/local/src
